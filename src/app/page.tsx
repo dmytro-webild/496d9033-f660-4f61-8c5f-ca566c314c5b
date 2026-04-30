@@ -69,7 +69,7 @@ export default function LandingPage() {
           href: "tel:+1234567890",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -96,7 +96,7 @@ export default function LandingPage() {
             "Emergency",
             "24/7",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=1",
         },
         {
           id: "f2",
@@ -106,7 +106,7 @@ export default function LandingPage() {
           tags: [
             "Installations",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=1",
         },
         {
           id: "f3",
@@ -116,7 +116,7 @@ export default function LandingPage() {
           tags: [
             "Upgrades",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=1",
         },
       ]}
       title="Our Specialized Plumbing Solutions"
@@ -167,7 +167,7 @@ export default function LandingPage() {
           quote: "The cleanest and most efficient service I've ever had.",
           tag: "5 stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/person-paying-bill-restaurant-using-nfc-technology_23-2150039415.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=2",
           imageAlt: "happy homeowner smiling home",
         },
         {
@@ -189,7 +189,7 @@ export default function LandingPage() {
           quote: "Fixed the leak and installed a new faucet flawlessly.",
           tag: "5 stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/happy-young-modern-woman-dancing-sitting-floor-moving-hands-rhythm-music-listening_1258-201749.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",
           imageAlt: "happy homeowner smiling home",
         },
         {
@@ -200,7 +200,7 @@ export default function LandingPage() {
           quote: "Dependable and professional work on my remodel.",
           tag: "5 stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/father-kid-taking-selfies_23-2148947322.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=2",
           imageAlt: "happy homeowner smiling home",
         },
         {
@@ -211,7 +211,7 @@ export default function LandingPage() {
           quote: "Clean, fast, and very polite crew. Very happy.",
           tag: "5 stars",
           avatarSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-pretty-woman-showing-ok-sign_1262-2368.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=2",
           imageAlt: "happy homeowner smiling home",
         },
       ]}
