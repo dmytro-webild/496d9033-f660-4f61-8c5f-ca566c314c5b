@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Freeman Yuma"
     />
@@ -55,19 +47,14 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogoBillboard
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       logoText="Plumbing Done Perfectly — The First Time"
-      description="Fast, reliable, and spotless service trusted by homeowners across the area We dont just fix problems—we upgrade your space"
+      description="Fast, reliable, and spotless service trusted by homeowners across the area. Contact us at (347) 433-4018 for immediate assistance."
       buttons={[
         {
-          text: "Get a Free Estimate",
-          href: "#contact",
-        },
+          text: "Get a Free Estimate",          href: "#contact"},
         {
-          text: "Call Now",
-          href: "tel:+1234567890",
-        },
+          text: "Call Now",          href: "tel:+13474334018"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1"
       mediaAnimation="slide-up"
@@ -88,36 +75,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          title: "Emergency Repairs",
-          author: "Freeman Yuma",
-          description: "Rapid response for all urgent plumbing needs, 24/7.",
-          tags: [
-            "Emergency",
-            "24/7",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=1",
-        },
+          id: "f1",          title: "Emergency Repairs",          author: "Freeman Yuma",          description: "Rapid response for all urgent plumbing needs, 24/7.",          tags: [
+            "Emergency",            "24/7"],
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=1"},
         {
-          id: "f2",
-          title: "Fixture Installation",
-          author: "Freeman Yuma",
-          description: "Professional installation for kitchens, bathrooms, and utility areas.",
-          tags: [
-            "Installations",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=1",
-        },
+          id: "f2",          title: "Fixture Installation",          author: "Freeman Yuma",          description: "Professional installation for kitchens, bathrooms, and utility areas.",          tags: [
+            "Installations"],
+          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=1"},
         {
-          id: "f3",
-          title: "System Upgrades",
-          author: "Freeman Yuma",
-          description: "High-efficiency pipe replacements and hardware upgrades.",
-          tags: [
-            "Upgrades",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=1",
-        },
+          id: "f3",          title: "System Upgrades",          author: "Freeman Yuma",          description: "High-efficiency pipe replacements and hardware upgrades.",          tags: [
+            "Upgrades"],
+          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=1"},
       ]}
       title="Our Specialized Plumbing Solutions"
       description="We offer a wide range of premium services to keep your home running smoothly and efficiently."
@@ -131,22 +99,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          title: "Years of Experience",
-          value: "15+",
-          icon: Award,
+          id: "m1",          title: "Years of Experience",          value: "15+",          icon: Award,
         },
         {
-          id: "m2",
-          title: "Happy Customers",
-          value: "5,000+",
-          icon: Users,
+          id: "m2",          title: "Happy Customers",          value: "5,000+",          icon: Users,
         },
         {
-          id: "m3",
-          title: "Same-Day Projects",
-          value: "99%",
-          icon: Clock,
+          id: "m3",          title: "Same-Day Projects",          value: "99%",          icon: Clock,
         },
       ]}
       title="Proven Track Record"
@@ -160,60 +119,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",
-          name: "Sarah Miller",
-          date: "Oct 2023",
-          title: "Professionalism",
-          quote: "The cleanest and most efficient service I've ever had.",
-          tag: "5 stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/person-paying-bill-restaurant-using-nfc-technology_23-2150039415.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=2",
-          imageAlt: "happy homeowner smiling home",
-        },
+          id: "t1",          name: "Sarah Miller",          date: "Oct 2023",          title: "Professionalism",          quote: "The cleanest and most efficient service I've ever had.",          tag: "5 stars",          avatarSrc: "http://img.b2bpic.net/free-photo/person-paying-bill-restaurant-using-nfc-technology_23-2150039415.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=2",          imageAlt: "happy homeowner smiling home"},
         {
-          id: "t2",
-          name: "James Wilson",
-          date: "Nov 2023",
-          title: "Fast Response",
-          quote: "They arrived within an hour of my call. Exceptional.",
-          tag: "5 stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/smiling-customer-service-representative_23-2151933142.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721527.jpg",
-          imageAlt: "happy homeowner smiling home",
-        },
+          id: "t2",          name: "James Wilson",          date: "Nov 2023",          title: "Fast Response",          quote: "They arrived within an hour of my call. Exceptional.",          tag: "5 stars",          avatarSrc: "http://img.b2bpic.net/free-photo/smiling-customer-service-representative_23-2151933142.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721527.jpg",          imageAlt: "happy homeowner smiling home"},
         {
-          id: "t3",
-          name: "Alice Johnson",
-          date: "Dec 2023",
-          title: "Great Work",
-          quote: "Fixed the leak and installed a new faucet flawlessly.",
-          tag: "5 stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/happy-young-modern-woman-dancing-sitting-floor-moving-hands-rhythm-music-listening_1258-201749.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",
-          imageAlt: "happy homeowner smiling home",
-        },
+          id: "t3",          name: "Alice Johnson",          date: "Dec 2023",          title: "Great Work",          quote: "Fixed the leak and installed a new faucet flawlessly.",          tag: "5 stars",          avatarSrc: "http://img.b2bpic.net/free-photo/happy-young-modern-woman-dancing-sitting-floor-moving-hands-rhythm-music-listening_1258-201749.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",          imageAlt: "happy homeowner smiling home"},
         {
-          id: "t4",
-          name: "Mark Evans",
-          date: "Jan 2024",
-          title: "Reliable",
-          quote: "Dependable and professional work on my remodel.",
-          tag: "5 stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/father-kid-taking-selfies_23-2148947322.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=2",
-          imageAlt: "happy homeowner smiling home",
-        },
+          id: "t4",          name: "Mark Evans",          date: "Jan 2024",          title: "Reliable",          quote: "Dependable and professional work on my remodel.",          tag: "5 stars",          avatarSrc: "http://img.b2bpic.net/free-photo/father-kid-taking-selfies_23-2148947322.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/man-rinsing-glass-with-pull-out-sprayer-quick-kitchen-cleanup_169016-69562.jpg?_wi=2",          imageAlt: "happy homeowner smiling home"},
         {
-          id: "t5",
-          name: "Lisa Brown",
-          date: "Feb 2024",
-          title: "Best Service",
-          quote: "Clean, fast, and very polite crew. Very happy.",
-          tag: "5 stars",
-          avatarSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-pretty-woman-showing-ok-sign_1262-2368.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=2",
-          imageAlt: "happy homeowner smiling home",
-        },
+          id: "t5",          name: "Lisa Brown",          date: "Feb 2024",          title: "Best Service",          quote: "Clean, fast, and very polite crew. Very happy.",          tag: "5 stars",          avatarSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-pretty-woman-showing-ok-sign_1262-2368.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/engineer-writing-condenser-values_482257-90848.jpg?_wi=2",          imageAlt: "happy homeowner smiling home"},
       ]}
       title="Trusted by Your Neighbors"
       description="See why homeowners choose Freeman Yuma for their plumbing needs."
@@ -225,20 +139,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Are you licensed?",
-          content: "Yes, we are fully licensed and insured for your peace of mind.",
-        },
+          id: "q1",          title: "Are you licensed?",          content: "Yes, we are fully licensed and insured for your peace of mind."},
         {
-          id: "q2",
-          title: "Do you offer emergency service?",
-          content: "Absolutely, we provide 24/7 emergency support.",
-        },
+          id: "q2",          title: "Do you offer emergency service?",          content: "Absolutely, we provide 24/7 emergency support."},
         {
-          id: "q3",
-          title: "Is work guaranteed?",
-          content: "We offer a Clean Work Guarantee and back our installations with a warranty.",
-        },
+          id: "q3",          title: "Is work guaranteed?",          content: "We offer a Clean Work Guarantee and back our installations with a warranty."},
       ]}
       sideTitle="Common Plumbing Questions"
       sideDescription="Get quick answers to common questions about our professional plumbing services."
@@ -250,11 +155,10 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       tag="Get in touch"
       title="Ready for Plumbing Done Right?"
-      description="Send us your request for a free estimate or book a service today."
+      description="Send us your request for a free estimate, or call us directly at (347) 433-4018 to book a service today."
     />
   </div>
 
@@ -264,25 +168,17 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "Services",
-              href: "#features",
-            },
+              label: "Services",              href: "#features"},
           ],
         },
         {
           items: [
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
