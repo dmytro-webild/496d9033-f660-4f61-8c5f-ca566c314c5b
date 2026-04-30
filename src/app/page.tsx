@@ -99,7 +99,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",          title: "Years of Experience",          value: "15+",          icon: Award,
+          id: "m1",          title: "Years of Experience",          value: "50+",          icon: Award,
         },
         {
           id: "m2",          title: "Happy Customers",          value: "5,000+",          icon: Users,
