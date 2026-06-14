@@ -48,7 +48,7 @@ export default function LandingPage() {
         description="Fast, reliable, and spotless service trusted by homeowners in Yuma. Contact us at (347) 433-4018."
         primaryButton={{ text: "Get Estimate", href: "#contact" }}
         secondaryButton={{ text: "Call Now", href: "tel:+13474334018" }}
-        items={[{ imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }]}
+        items={[{ imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg?_wi=2" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }]}
       />
   </div>
 
@@ -58,7 +58,7 @@ export default function LandingPage() {
         quote="We treat your home as if it were our own, ensuring meticulous care and plumbing precision."
         author="Freeman Yuma"
         role="Lead Master Plumber"
-        imageSrc="http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg"
+        imageSrc="http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg?_wi=3"
       />
   </div>
 
