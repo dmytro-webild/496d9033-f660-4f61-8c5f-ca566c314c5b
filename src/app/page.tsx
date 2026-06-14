@@ -8,7 +8,7 @@ import FeaturesBorderGlow from '@/components/sections/features/FeaturesBorderGlo
 import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
-import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
+import NavbarFullscreen from '@/components/ui/NavbarFullscreen';
 import TestimonialRatingCards from '@/components/sections/testimonial/TestimonialRatingCards';
 import AboutText from '@/components/sections/about/AboutText';
 import { Award, Clock, Users } from "lucide-react";
@@ -29,7 +29,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarFloatingLogo
+      <NavbarFullscreen
         logo="Freeman Yuma"
         navItems={[
           { name: "Home", href: "#hero" },
@@ -96,7 +96,7 @@ export default function LandingPage() {
         description="See why homeowners choose Freeman Yuma."
         testimonials={[
           { name: "Sarah Miller", role: "Homeowner", quote: "The cleanest and most efficient service ever.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=2" },
-          { name: "James Wilson", role: "Homeowner", quote: "They arrived within an hour of my call.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/plumbing-professional-doing-his-job_23-2150721527.jpg" },
+          { name: "James Wilson", role: "Homeowner", quote: "They arrived within an hour of my call.", rating: 5, imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" },
         ]}
       />
   </div>
