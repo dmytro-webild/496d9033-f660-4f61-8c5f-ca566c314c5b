@@ -2,16 +2,16 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqSimple from '@/components/sections/faq/FaqSimple';
-import FeaturesBorderGlow from '@/components/sections/features/FeaturesBorderGlow';
-import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
-import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
-import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
-import NavbarFullscreen from '@/components/ui/NavbarFullscreen';
-import TestimonialRatingCards from '@/components/sections/testimonial/TestimonialRatingCards';
-import AboutText from '@/components/sections/about/AboutText';
-import { Award, Clock, Users } from "lucide-react";
+import ContactSplitFormSharp from '@/components/sections/contact/ContactSplitFormSharp';
+import FaqTabbedAccordion from '@/components/sections/faq/FaqTabbedAccordion';
+import FeaturesAttributeCards from '@/components/sections/features/FeaturesAttributeCards';
+import FooterSimpleCard from '@/components/sections/footer/FooterSimpleCard';
+import HeroTiltedCards from '@/components/sections/hero/HeroTiltedCards';
+import MetricsIconCards from '@/components/sections/metrics/MetricsIconCards';
+import NavbarInline from '@/components/ui/NavbarInline';
+import TestimonialAvatarCard from '@/components/sections/testimonial/TestimonialAvatarCard';
+import AboutTestimonialParallax from '@/components/sections/about/AboutTestimonialParallax';
+import { Award, Clock, Users, Wrench } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -29,7 +29,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarFullscreen
+      <NavbarInline
         logo="Freeman Yuma"
         navItems={[
           { name: "Home", href: "#hero" },
@@ -42,79 +42,74 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplitKpi
+      <HeroTiltedCards
         tag="Expert Plumbing"
         title="Plumbing Done Perfectly — The First Time"
-        description="Fast, reliable, and spotless service trusted by homeowners. Contact us at (347) 433-4018."
+        description="Fast, reliable, and spotless service trusted by homeowners in Yuma. Contact us at (347) 433-4018."
         primaryButton={{ text: "Get Estimate", href: "#contact" }}
         secondaryButton={{ text: "Call Now", href: "tel:+13474334018" }}
-        kpis={[
-          { value: "50+", label: "Years Exp" },
-          { value: "5k+", label: "Customers" },
-          { value: "99%", label: "On-Time" }
-        ]}
-        imageSrc="http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1"
+        items={[{ imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }, { imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1" }]}
       />
   </div>
 
   <div id="about" data-section="about">
-      <AboutText
-        title="Unrivaled Professionalism in Yuma Plumbing"
-        primaryButton={{ text: "Learn More", href: "#features" }}
+      <AboutTestimonialParallax
+        tag="About Us"
+        quote="We treat your home as if it were our own, ensuring meticulous care and plumbing precision."
+        author="Freeman Yuma"
+        role="Lead Master Plumber"
+        imageSrc="http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg"
       />
   </div>
 
   <div id="features" data-section="features">
-      <FeaturesBorderGlow
+      <FeaturesAttributeCards
         tag="Solutions"
-        title="Our Specialized Plumbing Services"
-        description="Premium solutions to keep your home running smoothly."
-        features={[
-          { icon: Award, title: "Emergency Repairs", description: "Rapid response for urgent needs, 24/7." },
-          { icon: Users, title: "Fixture Installation", description: "Professional kitchen and bathroom upgrades." },
-          { icon: Clock, title: "System Upgrades", description: "High-efficiency pipe replacements and hardware." },
+        title="Our Specialized Services"
+        description="High-performance plumbing upgrades and rapid emergency support."
+        items={[
+          { title: "Emergency Repairs", tags: "24/7", details: [{ icon: Wrench, label: "Status", value: "Available" }] },
+          { title: "Fixture Installation", tags: "Kitchen/Bath", details: [{ icon: Users, label: "Status", value: "Pro" }] },
+          { title: "Pipe Upgrades", tags: "System", details: [{ icon: Clock, label: "Status", value: "Fast" }] },
         ]}
       />
   </div>
 
   <div id="metrics" data-section="metrics">
-      <MetricsSimpleCards
+      <MetricsIconCards
         tag="Track Record"
         title="Excellence in Every Job"
         metrics={[
-          { value: "50+", description: "Years of Experience" },
-          { value: "5,000+", description: "Happy Customers" },
-          { value: "99%", description: "Same-Day Projects" },
+          { icon: "Award", title: "Years Experience", value: "50+" },
+          { icon: "Users", title: "Happy Customers", value: "5k+" },
+          { icon: "Clock", title: "On-Time Delivery", value: "99%" },
         ]}
       />
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialRatingCards
+      <TestimonialAvatarCard
         tag="Testimonials"
-        title="Trusted by Your Neighbors"
-        description="See why homeowners choose Freeman Yuma."
-        testimonials={[
-          { name: "Sarah Miller", role: "Homeowner", quote: "The cleanest and most efficient service ever.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=2" },
-          { name: "James Wilson", role: "Homeowner", quote: "They arrived within an hour of my call.", rating: 5, imageSrc: "http://img.b2bpic.net/plumbing-professional-doing-his-job_23-2150721527.jpg" },
-        ]}
+        title="Join our satisfied local community"
+        primaryButton={{ text: "Call Us", href: "tel:+13474334018" }}
+        avatars={[{ name: "Sarah M." }, { name: "James W." }, { name: "Bob T." }, { name: "Alice P." }]}
       />
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqSimple
+      <FaqTabbedAccordion
         tag="Support"
         title="Common Plumbing Questions"
-        items={[
-          { question: "Are you licensed?", answer: "Yes, we are fully licensed and insured." },
-          { question: "Do you offer emergency service?", answer: "Yes, we provide 24/7 support." },
-          { question: "Is work guaranteed?", answer: "Yes, we offer a Clean Work Guarantee and warranty." },
+        categories={[
+          { name: "General", items: [{ question: "Are you licensed?", answer: "Yes, we are fully licensed and insured." }] },
+          { name: "Emergency", items: [{ question: "Do you offer emergency service?", answer: "Yes, we provide 24/7 support." }] },
+          { name: "Guarantee", items: [{ question: "Is work guaranteed?", answer: "Yes, we offer a Clean Work Guarantee and warranty." }] },
         ]}
       />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplitForm
+      <ContactSplitFormSharp
         tag="Get in touch"
         title="Ready for Plumbing Done Right?"
         description="Send us your request for a free estimate, or call us at (347) 433-4018."
@@ -124,17 +119,18 @@ export default function LandingPage() {
           { name: "email", type: "email", placeholder: "Email Address", required: true },
         ]}
         textarea={{ name: "message", placeholder: "Tell us about your project" }}
+        imageSrc="http://img.b2bpic.net/free-photo/asian-plumber-blue-overalls-clearing-blockage-drain_1098-17773.jpg?_wi=1"
       />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterSimpleMedia
+      <FooterSimpleCard
         brand="Freeman Yuma"
+        copyright="© 2024 Freeman Yuma. All rights reserved."
         columns={[
           { title: "Links", items: [{ label: "Home", href: "#hero" }, { label: "About", href: "#about" }] },
           { title: "Services", items: [{ label: "Emergency", href: "#features" }, { label: "Contact", href: "#contact" }] },
         ]}
-        copyright="© 2024 Freeman Yuma. All rights reserved."
       />
   </div>
       </ReactLenis>
